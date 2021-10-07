@@ -1,0 +1,96 @@
+<?php
+include_once 'database.php';
+if(isset($_POST['save'])){
+    $checkbox = $_POST['check'];
+    for($i=0;$i<count($checkbox);$i++){
+    $del_id = $checkbox[$i]; 
+    mysqli_query($conn,"DELETE FROM equipment WHERE uid='".$del_id."'");
+    // $message = "Data deleted successfully !";
+}
+}
+$result = mysqli_query($conn,"SELECT * FROM equipment");
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    h1{text-align: center; color: white}
+    tr{
+        background-color:white
+    }
+</style>
+<script type="js.js"></script>
+<link rel="stylesheet" type="text/css" href="stylez.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>Delete employee data</title>
+</head>
+<body style="   background-color:rgb(59, 131, 247);">
+<div><?php if(isset($message)) { echo $message; } ?>
+</div>
+<h1>EQUIPMENT INVENTORY (Texas)</h1>
+
+<form name="form1"  action="insert.php" method="post" >
+<table>
+
+  <tr>
+<div id = "lnr">
+
+<th>
+    
+    <input type="text" hidden name="id" ><b>First Initial:</b><input type="text" name="first_name" id = "firstI"  maxlength="1" input size="1" placeholder="1st in"><b>Last name:</b><input type="text" name="last_name" id = "lastN" placeholder="Last name"><input disabled value="@hospicesource.net" placeholder="@hospicesource.net" type="text" name="email"><!-- <span id = "at">@hospicesource.net</span> --> <b>Serial:</b><br><input type="text" name="address" onclick="myfunk()"><b>Position:</b><input type="text" name="position"><b>Location</b><input type="text" name="location"><b>Sled</b><input type="text" name="sled"><b>Phone#:</b><input type="text" name="phone">
+<input type="submit" name="Submit">
+</th>
+
+</div></tr></table></form>
+
+
+<form method="post" action="">
+<table class="table table-bordered">
+<thead>
+<tr>
+    <th><input type="checkbox" id="checkAl"> Select All</th>
+    <th>id</th>
+    <th>first</th>
+    <th>Last</th>
+    <th>Phone Serial</th>
+    <th>email</th>
+    <th>location</th>
+    <th>phone#</th>
+    <th>position</th>
+    <th>sled-sn#</th>
+    <th>Delete</th>
+
+</tr>
+</thead>
+<?php
+$i=0;
+while($row = mysqli_fetch_array($result)) {
+?>
+<tr>
+    <td><input type="checkbox" id="checkItem" name="check[]" value="<?php echo $row["uid"]; ?>"></td>
+    <td><?php echo $row["uid"]; ?></td>
+    <td><?php echo $row["first_name"]; ?></td>
+    <td><?php echo $row["last_name"]; ?></td>
+    <td><?php echo $row["address"]; ?></td>
+    <td><?php echo $row["email"]; ?></td>
+    <td><?php echo $row["location"]; ?></td>
+    <td><?php echo $row["phone"]; ?></td>
+    <td><?php echo $row["position"]; ?></td>
+    <td><?php echo $row["sled"]; ?></td>
+    <td><a href="delete-process.php?uid=<?php echo $row["uid"]; ?>">Delete</a></td>
+
+</tr>
+<?php
+$i++;
+}
+?>
+</table>
+<p align="center"><button type="submit" class="btn btn-success" name="save">DELETE-Selected</button></p>
+</form>
+<script>
+$("#checkAl").click(function () {
+$('input:checkbox').not(this).prop('checked', this.checked);
+});
+</script>
+</body>
+</html>
