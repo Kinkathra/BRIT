@@ -1,32 +1,182 @@
+
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
+<?php
+include_once 'database.php';
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
+if(isset($_POST['save'])){
+    $checkbox = $_POST['check'];
+    for($i=0;$i<count($checkbox);$i++){
+    $del_id = $checkbox[$i]; 
+    mysqli_query($conn,"DELETE FROM equipment WHERE uid='".$del_id."'");
+    // $message = "Data deleted successfully !";
+    }
+}
+$result = mysqli_query($conn,"SELECT * FROM equipment");
+?>
+
 <!DOCTYPE html>
-<html id = "centered">
+<html>
 <head>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script type="javasc.js"></script>
 
-<script type="text/javascript" src="itForm.js"></script>
-      <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .icon{width:1em; height:1em; float:right;}
+    y{color:yellow;}
+    html, body{ width:100%; height:100%; margin: 0px; padding:0px; overflow-x:hidden;
+background: linear-gradient(to right, #1CB5E0, #000046);}
+    #submit{float:top}
+    table{width:100%};
+    r{color: red}
+    #borda{border: solid white; text-align: center;}
+    #submit{float: right}
+    #addNew{background-color: gray;}
+    .btn-outline-danger{border-color: green}
+    h1{text-align: center; color: white}
+    tr{
+        background-color:white
+    }
+</style>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-	<meta charset="utf-8">
-      <link rel="stylesheet" type="text/css" href="styles.css">
-
-	<title>Req Form</title>
+<link rel="stylesheet" type="text/css" href="stylez.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>Backroom IT Inventory</title>
 </head>
-<body>
+<body style="   background-color:rgb(59, 131, 247);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="welcome.php">BR<y>!T</y>&nbsp;<a href="inventory.php"></a> <span class="blinking-cursor">||<a href = "inventory.php" ><img class="icon" src="britback.png"></a> <span class="blinking-cursor">||
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a href="inventory.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            &nbsp;
+          </a>
 
-<ul class="nav" style="background-color:white">
-  <li class="nav-item">
-    <a class="nav-link active" href="index.php">Equipment Data</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="req.php">Submit Req</a>
-  </li>
+          </ul>
 
-  </li>
-</ul>
+  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class=" dropdown-toggle btn btn-transparent"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            &nbsp;<br>
+            
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="req.php">Phones</a></li>
+            <li><a class="dropdown-item" href="#">Laptops</a></li>
+            <li><a class="dropdown-item" href="#">Chargers</a></li>
+            <li><a class="dropdown-item" href="#">Docking Station</a></li>
+            <li><a class="dropdown-item" href="#">Mounts, etc.</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+          </li>
+      </ul>
+    </div>
+</nav><!-- Example single danger button -->
+
+<div><?php if(isset($message)) { echo $message; } ?>
+</div>
+
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
+<?php
+include_once 'database.php';
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
+if(isset($_POST['save'])){
+    $checkbox = $_POST['check'];
+    for($i=0;$i<count($checkbox);$i++){
+    $del_id = $checkbox[$i]; 
+    mysqli_query($conn,"DELETE FROM equipment WHERE uid='".$del_id."'");
+    // $message = "Data deleted successfully !";
+    }
+}
+$result = mysqli_query($conn,"SELECT * FROM equipment");
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script type="javasc.js"></script>
+
+<style>
+    .icon{width:1em; height:1em;}
+    y{color:yellow;}
+    html, body{ width:100%; height:100%; margin: 0px; padding:0px; overflow-x:hidden;
+background: linear-gradient(to right, #1CB5E0, #000046);}
+    #submit{float:top}
+    table{width:100%};
+    r{color: red}
+    #borda{border: solid white; text-align: center;}
+    #submit{float: right}
+    #addNew{background-color: gray;}
+    .btn-outline-danger{border-color: green}
+    h1{text-align: center; color: white}
+    tr{
+        background-color:white
+    }
+</style>
+
+<link rel="stylesheet" type="text/css" href="stylez.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>Backroom IT Inventory</title>
+</head>
+
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
+<?php
+include_once 'database.php';
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
+if(isset($_POST['save'])){
+    $checkbox = $_POST['check'];
+    for($i=0;$i<count($checkbox);$i++){
+    $del_id = $checkbox[$i]; 
+    mysqli_query($conn,"DELETE FROM equipment WHERE uid='".$del_id."'");
+    // $message = "Data deleted successfully !";
+    }
+}
+$result = mysqli_query($conn,"SELECT * FROM equipment");
+?>
+
+
 <table style ="border-style:solid">
   <caption> <a href="index.php">Back</a></caption>
   <tr>
@@ -74,7 +224,7 @@
   <tr id = "goRight">
     <th scope ="col">Equipment Request:</th>
     <th scope ="col">Item</th>
-    <th scope ="col">Date Needed</th>
+    <!--<th scope ="col">Date Needed</th>-->
     <th scope ="col">Price</th>
 <!--     <th scope ="col">Vendor<b>(IT ONLY)</b></th>
     <th scope ="col">Final Price<b>(IT ONLY)</b></th>
@@ -85,9 +235,20 @@
 
 </table id = "">
   <tr>
-  <td><textarea col ="1" rows="1" placeholder="Item"></textarea></td>
-  <td><textarea col ="1" rows="1" placeholder="Date Needed"></textarea></td>
-  <td><textarea col ="1" rows="1" placeholder="Price"></textarea></td>
+  <td><input type="checkbox" name="phone"><label for=phone>Phone</label></td>
+  <td><input type="checkbox" name="laptop"><label for=laptop>Laptop</label></td>
+  <td><input type="checkbox" name="charger"><label for=charger>Charger</label></td>
+  <td><input type="checkbox" name="sled"><label for=sled>Sled</label></td>
+  <td><input type="checkbox" name="mount"><label for=mount>Mount</label></td>
+<input type="text" placeholder="Solo Approval Date" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+  <label for="price">Choose value est.:</label>
+  <select id="price" name="price">
+    <option value="0">0</option>
+    <option value="charger">50</option>
+    <option value="iphone" selected>260</option>
+    <option value="laptop">500</option>
+  </select>  
+  Notes:
   <td><textarea col ="1" rows="1"></textarea></td>
   <td><textarea col ="1" rows="1" disabled></textarea></td>
   <td><textarea col ="1" rows="1" disabled></textarea></td>
@@ -151,6 +312,13 @@
 </tr> -->
 </table>
 </div>
-<footer>  IT Req</footer>
+
 </body>
+<script type="javasc.js"></script>
+
+</html>
+
+</body>
+<script type="javasc.js"></script>
+
 </html>

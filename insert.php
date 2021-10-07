@@ -10,10 +10,10 @@
 		<?php
 
 		// servername => localhost
-		// username => root
-		// password => empty
+		// username => IT1
+		// password => 8amPnZL=yI!%
 		// database name => staff
-		$conn = mysqli_connect("localhost", "root", "", "student");	
+		$conn = mysqli_connect("localhost", "IT1", "8amPnZL=yI!%", "student");	
 		// Check connection
 		if($conn === false){
 			die("ERROR: Could not connect. "
@@ -51,7 +51,7 @@
 		
 		// Close connection
 		mysqli_close($conn);
-		header("location:index.php");
+		header("location:inventory.php");
 
 		?><!-- <a href="index.php"><button style="padding-left:50%; padding-right: 50%; height: 40em;margin-top:3%%;">GO BACK</button> -->
 	</center>

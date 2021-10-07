@@ -1,6 +1,6 @@
 h1{color: white;}
 th{margin-left: 12%}
-body {padding-left: 5%; background-color: rgb(59, 131, 247); }
+body {padding-left: 5%; background-color: rgb(59, 131, 247); font-size:100%; }
 table{background-color: white; width: 100%}
 #inventory{float: left}
 #fLO{font-family: times; }
@@ -22,13 +22,11 @@ hr{margin: auto}
 #delete{margin: auto}
 #borda{border-style: solid black}
 tr{margin: 5em;text-align:center; background-color: white}
-#centered{margin-left: 05%; margin-right: 05%}
 #slide{float:left }
 /*tr{text-align: center}
 input{padding-right: 2em;margin: auto}
 #space{padding-right: 2em; padding-left: 2em}
 #space1{padding-right: 15%}*/
-#list{margin-left: 2em}
 #goRight{padding-right: 4em;}
 #boxit{margin-left: 10em}
 .nav{color: white}
