@@ -1,0 +1,5 @@
+function setDate(){
+var initialDate =document.querySelector(".initialDate").value
+console.log(initialDate);
+
+}
