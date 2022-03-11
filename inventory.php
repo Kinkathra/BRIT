@@ -159,7 +159,7 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
             <li><a class="dropdown-item" href="#">Return-Labels</a></li>
           </ul>
 
-  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><h3>About Me</h3><img src="outline_add_white_24dp.png">weekly-update</span>
+  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><h3>About Me</h3><a href="#section9"><img src="outline_add_white_24dp.png"></a>weekly-update</span>
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
     
@@ -423,7 +423,8 @@ chart.render();
 </div>
 
 <div style="" class="w3-container" id="">
-<img class="centr main"  src="outline_arrow_circle_up_white_48dp.png"></a>
+<img class="centr main"  src="outline_arrow_circle_up_white_48dp.png">
+<span id="section9">
 <div id="borda"><h1 class="display-1 main" id = "" href="#section1"><b>Inventory</b></h1>
 <hr>
 <table class="table">
