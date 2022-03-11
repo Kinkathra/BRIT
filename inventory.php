@@ -159,7 +159,7 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
             <li><a class="dropdown-item" href="#">Return-Labels</a></li>
           </ul>
 
-  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><h3>Go to Device log</h3><img src="outline_add_white_24dp.png">weekly-update</span>
+  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><h3>About Me</h3><img src="outline_add_white_24dp.png">weekly-update</span>
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
     
@@ -281,7 +281,8 @@ $('input:checkbox').not(this).prop('checked', this.checked);
 <hr>
 <hr>
 <div class="w3-container">
-<h1>About Me/h1>
+ <span id="section2">
+<h1>About Me</h1>
 
 Professional candidate of growth for business and IT with the posession of indepth knowledge of Hardware and Software technologies. I have 
 discovered a degree of professional skills to aid in the success of your company where no task is too small and where every factor
@@ -335,53 +336,6 @@ chart.render();
 </body>
 </html>
 
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit ESSE
 
 <!--<!DOCTYPE HTML>-->
 <!--<html>-->
@@ -457,43 +411,6 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit ESSE
 <span id="seperate section3"></span><div _ngcontent-tew-c203="" class="page-container"><app-track-another-shipment _ngcontent-tew-c203="" _nghost-tew-c195=""><div _ngcontent-tew-c195="" class="track-another-shipment-container"><!----><trk-shared-stylesheet-wrapper _ngcontent-tew-c195=""><div class="track-shared-wrapper"><!----></div></trk-shared-stylesheet-wrapper><h1 _ngcontent-tew-c195="" id="track-single-shipment-header"><div id="borda"></div> Enter a FedEx tracking, door tag or FedEx Office order number. </h1><!----><form _ngcontent-tew-c195="" novalidate="" id="track-another-shipment-form" class="ng-untouched ng-pristine ng-invalid"><div _ngcontent-tew-c195=""><div _ngcontent-tew-c195="" class="single-input-container input-label-container"><input class= "cent" placeholder="Tracking #" _ngcontent-tew-c195="" type="text" id="track-another-shipment-single-input" formcontrolname="singleTrackingId" maxlength="999" aria-describedby="track-single-shipment-header" pattern="^[a-zA-Z0-9,;' \n\-]*$" class="fxg-field__input-text wtrk-custom-select ng-untouched ng-pristine ng-valid"><label _ngcontent-tew-c195="" for="track-another-shipment-single-input" class="fxg-input-field__placeholder fxg-field__floating-placeholder fxg-input-empty-label"></label><!----><!----></div><button _ngcontent-tew-c195="" type="submit" appfocusoutline="" class="shipment-track-button">Track</button><!----><div _ngcontent-tew-c195="" class="link-section"><a _ngcontent-tew-c195="" trksharedopenintinynewwindow="" appfocusoutline="" class="inline-button" href="/en-us/quick-help/tracking/f_quickhelp.html"></a></div><!----></div><!----><div _ngcontent-tew-c195="" role="alert" aria-live="polite"><!----></div><!----></form></div></app-track-another-shipment><h1 _ngcontent-tew-c203="" class="heading"><div class="superLarge" div id="seperate"><span class="littleSmaller"></span><img src="FedEx_logo_orange-purple.png">TRACK<BR></h1><trk-shared-stylesheet-wrapper _ngcontent-tew-c203=""><div class="track-shared-wrapper"><div _ngcontent-tew-c203="" class="responsive-table-wrapper--horizontal-scroll responsive-table-wrapper--vertical-scroll"><table _ngcontent-tew-c203="" trksharedresponsivetable="" class="responsive-table"><caption _ngcontent-tew-c203="">Summary Tracking results</caption><thead _ngcontent-tew-c203=""><tr _ngcontent-tew-c203=""><th _ngcontent-tew-c203=""><span id = "section3" ></span><span id = section5>Tracking ID</th><th _ngcontent-tew-c203="">Ship date</th><th _ngcontent-tew-c203="">Shipper city, state</th><th _ngcontent-tew-c203="">Recipient city, state</th><th _ngcontent-tew-c203="">Status</th><th _ngcontent-tew-c203="">Delivery date</th><th _ngcontent-tew-c203="">Scheduled delivery date</th><th _ngcontent-tew-c203="">Service</th></tr></thead><tbody _ngcontent-tew-c203=""><tr _ngcontent-tew-c203=""><td _ngcontent-tew-c203="" data-heading="TRACKING ID"><trk-shared-tracking-link _ngcontent-tew-c203="" template="button"><!----><!----><!----><!----><button class="button-link"><!----> 284965540383 <!----><!----></button><!----><!----><!----><!----><!----><!----></trk-shared-tracking-link></td><td _ngcontent-tew-c203="" data-heading="SHIP DATE">9/10/2021</td><td _ngcontent-tew-c203="" data-heading="SHIPPER CITY, STATE">CARROLLTON, TX</td><td _ngcontent-tew-c203="" data-heading="RECIPIENT CITY, STATE">Chico, CA</td><td _ngcontent-tew-c203="" data-heading="STATUS"><trk-shared-shipment-status _ngcontent-tew-c203=""><div class="shipment-status shipment-status--wrap"><div class="shipment-status__icon"><trk-shared-icon _nghost-tew-c89=""><svg _ngcontent-tew-c89="" role="presentation" focusable="false" class="trk-shared-icon trk-shared-icon-success trk-shared-icon--large" aria-hidden="true"><!----><use _ngcontent-tew-c89="" href="#check-white-in-circle-filled-green" xlink:href="#check-white-in-circle-filled-green"></use></svg></trk-shared-icon></div><div><div class="shipment-status__key "> Delivered </div><!----></div></div></trk-shared-shipment-status></td><td _ngcontent-tew-c203="" data-heading="DELIVERY DATE">9/13/2021 8:41 am</td><td _ngcontent-tew-c203="" data-heading="SCHEDULED DELIVERY DATE"></td><td _ngcontent-tew-c203="" data-heading="SERVICE">FedEx Ground</td></tr><tr _ngcontent-tew-c203=""><td _ngcontent-tew-c203="" data-heading="TRACKING ID"><trk-shared-tracking-link _ngcontent-tew-c203="" template="button"><!----><!----><!----><!----><button class="button-link"><!----> 774761425084 <!----><!----></button><!----><!----><!----><!----><!----><!----></trk-shared-tracking-link></td><td _ngcontent-tew-c203="" data-heading="SHIP DATE">9/10/2021</td><td _ngcontent-tew-c203="" data-heading="SHIPPER CITY, STATE">CARROLLTON, TX</td><td _ngcontent-tew-c203="" data-heading="RECIPIENT CITY, STATE">ROUND ROCK, TX</td><td _ngcontent-tew-c203="" data-heading="STATUS"><trk-shared-shipment-status _ngcontent-tew-c203=""><div class="shipment-status shipment-status--wrap"><div class="shipment-status__icon"><trk-shared-icon _nghost-tew-c89=""><svg _ngcontent-tew-c89="" role="presentation" focusable="false" class="trk-shared-icon trk-shared-icon-success trk-shared-icon--large" aria-hidden="true"><!----><use _ngcontent-tew-c89="" href="#check-white-in-circle-filled-green" xlink:href="#check-white-in-circle-filled-green"></use></svg></trk-shared-icon></div><div><div class="shipment-status__key"> Delivered </div><!----></div></div></trk-shared-shipment-status></td><td _ngcontent-tew-c203="" data-heading="DELIVERY DATE">9/13/2021 11:34 am</td><td _ngcontent-tew-c203="" data-heading="SCHEDULED DELIVERY DATE"></td><td _ngcontent-tew-c203="" data-heading="SERVICE">FedEx Ground</td></tr><tr _ngcontent-tew-c203=""><td _ngcontent-tew-c203="" data-heading="TRACKING ID"><trk-shared-tracking-link _ngcontent-tew-c203="" template="button"><!----><!----><!----><!----><button class="button-link"><!----> 774767471677 <!----><!----></button><!----><!----><!----><!----><!----><!----></trk-shared-tracking-link></td><td _ngcontent-tew-c203="" data-heading="SHIP DATE">9/14/2021</td><td _ngcontent-tew-c203="" data-heading="SHIPPER CITY, STATE">CARROLLTON, TX</td><td _ngcontent-tew-c203="" data-heading="RECIPIENT CITY, STATE">LUFKIN, TX</td><td _ngcontent-tew-c203="" data-heading="STATUS"><trk-shared-shipment-status _ngcontent-tew-c203=""><div class="shipment-status shipment-status--wrap"><div class="shipment-status__icon"><trk-shared-icon _nghost-tew-c89=""><svg _ngcontent-tew-c89="" role="presentation" focusable="false" class="trk-shared-icon trk-shared-icon-success trk-shared-icon--large" aria-hidden="true"><!----><use _ngcontent-tew-c89="" href="#check-white-in-circle-filled-green" xlink:href="#check-white-in-circle-filled-green"></use></svg></trk-shared-icon></div><div><div class="shipment-status__key"> Delivered </div><!----></div></div></trk-shared-shipment-status></td><td _ngcontent-tew-c203="" data-heading="DELIVERY DATE">9/15/2021 9:09 am</td><td _ngcontent-tew-c203="" data-heading="SCHEDULED DELIVERY DATE"></td><td _ngcontent-tew-c203="" data-heading="SERVICE">FedEx Ground</td></tr><!----></tbody></table></div><!----><!----><div _ngcontent-tew-c203="" class="opodContainer"><div _ngcontent-tew-c203="" class="opodArea"><trk-shared-pod-link _ngcontent-tew-c203=""><div class="mt-2 text-align-center"><hr style="color:white"><button class="eye-brow-link seperate"> Obtain Proof of Delivery </button></div><!----><!----></trk-shared-pod-link></div></div><!----></div></trk-shared-stylesheet-wrapper></div></div><hr>
 </div
 
-<hr>
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 <h1>LICENSESING INFORMATION</h1>
 <div class="form-floating">
   <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
@@ -504,87 +421,9 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
   </select>
   <label for="floatingSelect">Works with selects</label>
 </div>
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 
 <div style="" class="w3-container" id="">
-  <span id="section2"><h2>Track Shipment</span></h2><a href="#section3"><img class="centr main"  src="outline_arrow_circle_up_white_48dp.png"></a>
+ <h2>Track Shipment</span></h2><a href="#section3"><img class="centr main"  src="outline_arrow_circle_up_white_48dp.png"></a>
 <div id="borda"><h1 class="display-1 main" id = "" href="#section1"><b>Inventory</b></h1>
 <hr>
 <table class="table">
@@ -747,39 +586,6 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 <div class="container">
   <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
     <div class="col">
-      <div class="p-3 border bg-light">GetBilledUsage<img src="verizon-logo-transparent.png" width=100%></div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">ChangeDeviceState - Suspend<img src="verizon-logo-transparent.png" width=100%></div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">ChangeDeviceCostCenter<img src="verizon-logo-transparent.png" width=100%></div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">ChangeDeviceState - Restore<img src="verizon-logo-transparent.png" width=100%></div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">GetBilledUsage<img src="verizon-logo-transparent.png" width=100%></div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">GetDeviceList<img src="verizon-logo-transparent.png" width=100%></div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">SendSmsMessage<img src="verizon-logo-transparent.png" width=100%></div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Request a return Label<a href="#section5"><img src="FedEx_logo_orange-purple.png" width=100%></div></a>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">No reason for this..Remove<img src="1200px-Amazon_logo.svg.png" width=100%></div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">No reason for this..Remove<img src="1200px-Best_Buy_Logo.svg.png" width=44%></div>
-      <hr>
-    </div>
-  </div>
-</div>
-</div>
 <div class = "main">
 <a href="#section1"><img class="centr main" src="outline_arrow_circle_up_white_48dp.png">&nbsp;<h3 style="color:white; float:left" class="main">Manager Returns</h3></a><h5>7</h5>
 </div>
