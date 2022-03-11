@@ -163,12 +163,12 @@ flyBritFly {
         <form action="/login.php" method="post">
             <div class="form-group">
                 <label>Username</label>
-                <input type="text" placeholder="username" name="username" class="form-control " value="">
+                <input type="text" placeholder="username" name="username" value="SNL" class="form-control " value="">
                 <span class="invalid-feedback"></span>
             </div>    
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" placeholder="password" name="password" class="form-control ">
+                <input type="password" placeholder="password" name="password" value="password" class="form-control ">
                 <span class="invalid-feedback"></span>
             </div>
             <div class="form-group">
