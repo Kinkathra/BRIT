@@ -13,7 +13,7 @@
 		// username => IT1
 		// password => 8amPnZL=yI!%
 		// database name => staff
-		$conn = mysqli_connect("localhost", "IT1", "8amPnZL=yI!%", "student");	
+		$conn = mysqli_connect("localhost", "gltmpvbudxb5", ")5q^12Y2h),fG", "student");	
 		// Check connection
 		if($conn === false){
 			die("ERROR: Could not connect. "

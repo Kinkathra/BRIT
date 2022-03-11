@@ -27,6 +27,7 @@ $result = mysqli_query($conn,"SELECT * FROM equipment");
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="icon" href ="favicon.png">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
@@ -168,7 +169,8 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
   </div>
           </li>
       </ul>
-    </div>            <a href="logout.php"><span class="white">signout</a></span>
+    </div>            
+    <a href="aboutme.php"><span style="padding-left:0" class="white">About&nbspme&nbsp</span></a><&emsp<a href="servicesOffered.php"><span style="padding-left:0" class="white">Services&nbspoffered</a>&emsp<a href="logout.php"><span class="white">signout</a></span>
 
               <!--<span class="signOut"><a href="signout.php">signout</a></li>-->
 
@@ -177,7 +179,9 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
 <div><?php if(isset($message)) { echo $message; } ?>
 </div>
 <span "whiteBackground">
-<h1 id="sortaLarger">Backroom IT(<!--<img src="outline_savings_white_24dp.png">-->)</h1>
+    <p style="text-align:center; color:#eaeaea ">This web application is used to keep track records <br> of unutilized
+IT assetts yet to be returned to your company.<p style="text-align:center; color:#eaeaea "></p>
+<h1 id="sortaLarger">Backroom IT(Phones<img src="">)</h1>
   <div id="borda"> 
 
 <form name="form1"  action="insert.php" method="post" >

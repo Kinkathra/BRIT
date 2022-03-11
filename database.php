@@ -12,8 +12,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <?php
 
     $url='localhost';
-    $username='IT1';
-    $password='8amPnZL=yI!%';
+    $username='gltmpvbudxb5';
+    $password=')5q^12Y2h),fG';
     $conn=mysqli_connect($url,$username,$password,"student");
     if(!$conn){
     die('Could not Connect My Sql:' .mysql_error());

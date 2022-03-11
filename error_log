@@ -2634,3 +2634,280 @@ Stack trace:
 [30-Oct-2021 01:51:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/y4duy61gblp4/public_html/database.php on line 4
 [30-Oct-2021 01:55:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/y4duy61gblp4/public_html/database.php on line 4
 [30-Oct-2021 01:57:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/y4duy61gblp4/public_html/database.php on line 4
+[09-Mar-2022 22:16:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/insert.php on line 16
+[09-Mar-2022 22:16:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/insert.php on line 16
+[09-Mar-2022 22:17:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[09-Mar-2022 22:17:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/insert.php on line 16
+[09-Mar-2022 22:52:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[09-Mar-2022 22:53:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[09-Mar-2022 22:53:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[09-Mar-2022 23:16:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[09-Mar-2022 23:17:23 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 01:31:34 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 04:38:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 04:38:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 04:42:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 04:43:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 04:55:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 04:55:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 04:57:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:12:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:12:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:12:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:12:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:12:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:12:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:12:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:14:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:14:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:16:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:16:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:16:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:18:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:18:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:18:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:18:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php:10
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/config.php(10): mysqli_connect()
+#1 /home/gltmpvbudxb5/public_html/login.php(12): require_once('/home/gltmpvbud...')
+#2 {main}
+  thrown in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:20:23 UTC] PHP Warning:  Undefined variable $link in /home/gltmpvbudxb5/public_html/login.php on line 40
+[10-Mar-2022 05:20:23 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in /home/gltmpvbudxb5/public_html/login.php:40
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/login.php(40): mysqli_prepare()
+#1 {main}
+  thrown in /home/gltmpvbudxb5/public_html/login.php on line 40
+[10-Mar-2022 05:23:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:24:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:24:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:24:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:24:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:31:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:31:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:31:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:32:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:32:22 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:34:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:44:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:50:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:54:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:54:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT1'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:54:28 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:54:30 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:54:36 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:54:37 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:54:37 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 05:54:37 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 06:04:36 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 06:04:38 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 06:08:23 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 06:08:25 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 06:11:09 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 06:11:09 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 06:19:34 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 06:19:34 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 06:21:31 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 08:47:41 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 13:01:45 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 19:34:44 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 20:25:31 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 20:37:03 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 20:37:03 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 20:40:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[10-Mar-2022 20:40:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:40:37 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/database.php on line 17
+[10-Mar-2022 20:40:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/gltmpvbudxb5/public_html/database.php:19
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/inventory.php(13): include_once()
+#1 {main}
+  thrown in /home/gltmpvbudxb5/public_html/database.php on line 19
+[10-Mar-2022 20:40:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:40:48 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/database.php on line 17
+[10-Mar-2022 20:40:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/gltmpvbudxb5/public_html/database.php:19
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/inventory.php(13): include_once()
+#1 {main}
+  thrown in /home/gltmpvbudxb5/public_html/database.php on line 19
+[10-Mar-2022 20:43:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT3'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 20:43:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT3'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 20:43:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT3'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 20:44:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'IT3'@'localhost' (using password: YES) in /home/gltmpvbudxb5/public_html/config.php on line 10
+[10-Mar-2022 20:46:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[10-Mar-2022 20:46:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:46:09 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/database.php on line 17
+[10-Mar-2022 20:46:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/gltmpvbudxb5/public_html/database.php:19
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/inventory.php(13): include_once()
+#1 {main}
+  thrown in /home/gltmpvbudxb5/public_html/database.php on line 19
+[10-Mar-2022 20:47:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:47:35 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/database.php on line 17
+[10-Mar-2022 20:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/gltmpvbudxb5/public_html/database.php:19
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/inventory.php(13): include_once()
+#1 {main}
+  thrown in /home/gltmpvbudxb5/public_html/database.php on line 19
+[10-Mar-2022 20:47:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[10-Mar-2022 20:47:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:47:52 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/database.php on line 17
+[10-Mar-2022 20:47:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/gltmpvbudxb5/public_html/database.php:19
+Stack trace:
+#0 /home/gltmpvbudxb5/public_html/inventory.php(13): include_once()
+#1 {main}
+  thrown in /home/gltmpvbudxb5/public_html/database.php on line 19
+[10-Mar-2022 20:49:36 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:52:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:52:26 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'IT1'@'localhost' to database 'student' in /home/gltmpvbudxb5/public_html/insert.php on line 16
+[10-Mar-2022 20:53:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gltmpvbudxb5'@'localhost' (using password: NO) in /home/gltmpvbudxb5/public_html/insert.php on line 16
+[10-Mar-2022 20:54:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[10-Mar-2022 20:54:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:54:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'gltmpvbudxb5'@'localhost' (using password: NO) in /home/gltmpvbudxb5/public_html/insert.php on line 16
+[10-Mar-2022 20:54:53 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'gltmpvbudxb5'@'localhost' to database ')5q^12Y2h),fG' in /home/gltmpvbudxb5/public_html/insert.php on line 16
+[10-Mar-2022 20:55:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:55:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[10-Mar-2022 20:55:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:55:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:55:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:55:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 20:55:48 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/gltmpvbudxb5/public_html/edit.php on line 5
+[10-Mar-2022 20:55:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:07:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[10-Mar-2022 23:07:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:41:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[10-Mar-2022 23:41:36 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:42:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:42:33 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:42:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:42:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:43:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[10-Mar-2022 23:43:21 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:43:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:43:49 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:44:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:44:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:45:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:47:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:47:24 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:47:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:48:44 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:50:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:50:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:52:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:52:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:53:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:54:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:54:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[10-Mar-2022 23:54:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/req.php on line 101
+[10-Mar-2022 23:54:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/req.php on line 156
+[10-Mar-2022 23:55:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:00:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:00:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:00:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:01:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:01:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:02:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:02:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:02:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:02:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:03:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:08:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:11:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:11:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:12:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:13:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:14:30 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:18:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:19:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:20:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:20:49 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:21:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:23:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:27:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:27:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:27:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:28:30 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:28:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:31:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[11-Mar-2022 00:44:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/login.php on line 59
+[11-Mar-2022 00:44:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:51:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:53:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:53:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 00:53:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
+[11-Mar-2022 01:25:45 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/gltmpvbudxb5/public_html/database.php on line 4
