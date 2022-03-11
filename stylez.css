@@ -1,0 +1,80 @@
+
+    .blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+    .centered{margin-left:30%;  mix-blend-mode: darken};
+    .pinkOrWhatever{color:#fc2683;}
+    </style>
+    <link rel="stylesheet" type="text/css" href="stylez.css">
+
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{background-color: rgba(0,0,0,.5); // Sets to 50% transparent
+
+}
+        h2{color:white;}
+         html{ font: 14px sans-serif; background-image:url(bird-1232416_960_720.webp); background-repeat:no-repeat; background;}
+        .wrapper{ width: 360px; padding: 20px; mix-blend-mode: lighten }
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+    #android{width: 1em}
+    #apple{width: 2em}
+    form{width: 100%}
+    

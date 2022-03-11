@@ -1,0 +1,22 @@
+
+
+#RewriteOptions inherit
+#Alternate default index page
+#DirectoryIndex  welcome.php
+#Redirect /index.html /welcome.php
+
+Rewrite Engine ON
+Rewrite Cond %{HTTPS} off
+Rewrite Rule ^(.*)$ https://%(HTTP-HOST)%{Request-URI} [L,R=301]
+
+# RewriteCond %{HTTP_HOST} ^backroomit.info [NC] 
+# RewriteCond %{HTTPS} off 
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# RewriteCond %{HTTPS} off 
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Prevent Apache from serving .ht* files:
+<FilesMatch "^\.ht">
+Order allow,deny
+Deny from all
+</FilesMatch>
