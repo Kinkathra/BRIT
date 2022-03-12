@@ -133,7 +133,7 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
         background-color:white;
     }
             sm{font-size:12px; color:white;font-weight:;}
-
+    .heads{color:black;}
 </style>
 
 <link rel="stylesheet" type="text/css" href="stylez.css">
@@ -282,7 +282,7 @@ $('input:checkbox').not(this).prop('checked', this.checked);
 <hr>
 <div class="w3-container">
  <span id="section2">
-<h1>About Me</h1>
+<h1 id ="heads">About Me</h1>
 
 Professional candidate of growth for business and IT with the posession of indepth knowledge of Hardware and Software technologies. I have 
 discovered a degree of professional skills to aid in the success of your company where no task is too small and where every factor
@@ -291,7 +291,39 @@ and that stakeholders love to see that money is being spent efficiently. I also 
 which also affects employee productivity. Taking into consideration those two important factors is why I created this simple application to not only
 keep records of devices that aren't being utilized but to also allow helpdesk employees and technicians house this information away from
 the helpdesk where managing open tickets can become overwhelming.
-<h1>Services Offered</h1>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 id="heads">Services Offered</h1>
 <h1>Recently Ordered</h1>
 <!DOCTYPE HTML>
 <html>
