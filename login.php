@@ -90,25 +90,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
  
 <!DOCTYPE html>
 <html lang="en">
-<html lang="en" data-arp-injected="true">
-
-<head>
+<html lang="en" data-arp-injected="true"><head>
     <link rel="stylesheet" type="text/css" href="stylez.css">
 
     <style>
-       .button {
-  background-color: #1c87c9;
-  -webkit-border-radius: 60px;
-  border-radius: 60px;
-  border:;
-  color: #eeeeee;
-  cursor: pointer;
-  display: inline-block;
-  font-family: sans-serif;
-  font-size: 20px;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;}
+    
     .signUpNow{
     color: rgb(255 255 255);
     background-color: rgb(193 193 193 / 46%);
@@ -135,13 +121,9 @@ flyBritFly {
 /*end of fly brit*/
     #white{color:white;}
  
-    .centered{margin-left:30%;  mix-blend-mode: darken;}
+    .centered{margin-left:30%;  mix-blend-mode: darken};
     .pinkOrWhatever{color:#fc2683;}
-
-
-
     </style>
-
     <link rel="stylesheet" type="text/css" href="stylez.css">
 
     <meta charset="UTF-8">
@@ -155,7 +137,37 @@ flyBritFly {
          html{ font: 14px sans-serif; background-image:url(bird-1232416_960_720.webp); background-repeat:no-repeat; background;}
         .wrapper{ width: 360px; padding: 20px; mix-blend-mode: lighten }
 
-}
+              .button {
+        background-color: #1c87c9;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+        50% {
+          background-color: #49e819;
+          box-shadow: 0 0 20px #49e819;
+        }
+        100% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+      }
+      .button {
+        animation: glowing 1300ms infinite;
+      }
     </style>
 </head>
 <body>
@@ -192,7 +204,7 @@ flyBritFly {
                 <span class="invalid-feedback"></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary button" value="Login" style="  text-shadow: 2px 2px 5px green">
+                <input type="submit" class="btn btn-primary" value="Login" style="  text-shadow: 2px 2px 5px green">
             </div>
 <p style="color:#fc2683;border-left: solid #ffffff59;border-bottom: solid #80808052;border-top: solid #ffffff57;border-right: solid #ffffff3b;border-right-width: 1px;border-bottom: solid #ffffff42;border-bottom-width: 1px;/* margin: 0; */">Don't have an account? <a href="register.php"><span class="signUpNow">Sign up now</span></a>.</p>        </form>
     </div>
