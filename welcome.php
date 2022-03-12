@@ -1,3 +1,5 @@
+<head>    <link rel="icon" href ="favicon.png">
+</head>
 <?php
 // Initialize the session
 session_start();
@@ -30,7 +32,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <style>
         body{ font: 14px sans-serif; text-align: center; }
     </style>
-        <link rel="icon" href ="favicon.png">
 
 </head>
 <body>
