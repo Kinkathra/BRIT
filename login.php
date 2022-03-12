@@ -136,6 +136,22 @@ flyBritFly {
         h2{color:white;}
          html{ font: 14px sans-serif; background-image:url(bird-1232416_960_720.webp); background-repeat:no-repeat; background;}
         .wrapper{ width: 360px; padding: 20px; mix-blend-mode: lighten }
+
+
+        .button {
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: solid red;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+}
     </style>
 </head>
 <body>
@@ -172,7 +188,7 @@ flyBritFly {
                 <span class="invalid-feedback"></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login" style="  text-shadow: 2px 2px 5px green">
+                <input type="submit" class="btn btn-primary button" value="Login" style="  text-shadow: 2px 2px 5px green">
             </div>
 <p style="color:#fc2683;border-left: solid #ffffff59;border-bottom: solid #80808052;border-top: solid #ffffff57;border-right: solid #ffffff3b;border-right-width: 1px;border-bottom: solid #ffffff42;border-bottom-width: 1px;/* margin: 0; */">Don't have an account? <a href="register.php"><span class="signUpNow">Sign up now</span></a>.</p>        </form>
     </div>
