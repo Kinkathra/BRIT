@@ -90,7 +90,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
  
 <!DOCTYPE html>
 <html lang="en">
-<html lang="en" data-arp-injected="true"><head>
+<html lang="en" data-arp-injected="true">
+<head>
+    <link rel="icon" href ="favicon.png">
+
        <link rel="stylesheet" type="text/css" href="stylez.css">
 
     <style>
