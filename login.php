@@ -172,7 +172,7 @@ flyBritFly {
 </head>
 <body>
     <div class="wrapper centered">
-        <h2><u>Login</u> <span class="blinking-cursor button">|</span><flybritfly><img src="backroomiths.png"><span class="blinking-cursor">_</span><br><p style="
+        <h2><u>Login</u> <span class="blinking-cursor">|</span><flybritfly><img src="backroomiths.png"><span class="blinking-cursor">_</span><br><p style="
           font-size: 31px;
           font-family:Times New Roman;
           color: #004580;
@@ -204,7 +204,7 @@ flyBritFly {
                 <span class="invalid-feedback"></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login" style="  text-shadow: 2px 2px 5px green">
+                <input type="submit" class="btn btn-primary button" value="Login" style="  text-shadow: 2px 2px 5px green">
             </div>
 <p style="color:#fc2683;border-left: solid #ffffff59;border-bottom: solid #80808052;border-top: solid #ffffff57;border-right: solid #ffffff3b;border-right-width: 1px;border-bottom: solid #ffffff42;border-bottom-width: 1px;/* margin: 0; */">Don't have an account? <a href="register.php"><span class="signUpNow">Sign up now</span></a>.</p>        </form>
     </div>
