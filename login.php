@@ -189,7 +189,7 @@ flyBritFly {
           border-bottom-color: #00000040;
           border-bottom-width: 1px;
           "><u style="text-decoration: underline;text-decoration-color: #ffffff24;/* text-decoration-line: overline; */">Asset Management</u></p></h2>
-        </flybritfly><p style="color:#c5edd0">Please fill in your credentials to access this site.</p>
+        </flybritfly><p style="color:#c5edd0" class="button">Press "login"!</p>
 
         
         <form action="/login.php" method="post">
