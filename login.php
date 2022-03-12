@@ -91,7 +91,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <!DOCTYPE html>
 <html lang="en">
 <html lang="en" data-arp-injected="true"><head>
-    <link rel="stylesheet" type="text/css" href="stylez.css">
+       <link rel="stylesheet" type="text/css" href="stylez.css">
 
     <style>
     
@@ -138,11 +138,11 @@ flyBritFly {
         .wrapper{ width: 360px; padding: 20px; mix-blend-mode: lighten }
 
               .button {
-        background-color: #1c87c9;
+        background-color: blue;
         -webkit-border-radius: 60px;
         border-radius: 60px;
         border: none;
-        color: #eeeeee;
+        color: blue;
         cursor: pointer;
         display: inline-block;
         font-family: sans-serif;
@@ -157,7 +157,7 @@ flyBritFly {
           box-shadow: 0 0 5px #2ba805;
         }
         50% {
-          background-color: #49e819;
+          background-color: black;
           box-shadow: 0 0 20px #49e819;
         }
         100% {
