@@ -123,6 +123,21 @@ flyBritFly {
  
     .centered{margin-left:30%;  mix-blend-mode: darken};
     .pinkOrWhatever{color:#fc2683;}
+
+
+     .button {
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: solid red;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
     </style>
     <link rel="stylesheet" type="text/css" href="stylez.css">
 
@@ -137,20 +152,6 @@ flyBritFly {
          html{ font: 14px sans-serif; background-image:url(bird-1232416_960_720.webp); background-repeat:no-repeat; background;}
         .wrapper{ width: 360px; padding: 20px; mix-blend-mode: lighten }
 
-
-        .button {
-  background-color: #1c87c9;
-  -webkit-border-radius: 60px;
-  border-radius: 60px;
-  border: solid red;
-  color: #eeeeee;
-  cursor: pointer;
-  display: inline-block;
-  font-family: sans-serif;
-  font-size: 20px;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
 }
     </style>
 </head>
