@@ -172,7 +172,7 @@ flyBritFly {
 </head>
 <body>
     <div class="wrapper centered">
-        <h2><u>Login</u> <span class="blinking-cursor">|</span><flybritfly><img src="backroomiths.png"><span class="blinking-cursor">_</span><br><p style="
+        <h2><u>Login</u> <span class="blinking-cursor button">|</span><flybritfly><img src="backroomiths.png"><span class="blinking-cursor">_</span><br><p style="
           font-size: 31px;
           font-family:Times New Roman;
           color: #004580;
