@@ -96,7 +96,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link rel="stylesheet" type="text/css" href="stylez.css">
 
     <style>
-    
+       .button {
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border:;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;}
     .signUpNow{
     color: rgb(255 255 255);
     background-color: rgb(193 193 193 / 46%);
@@ -127,19 +139,7 @@ flyBritFly {
     .pinkOrWhatever{color:#fc2683;}
 
 
-     .button {
-  background-color: #1c87c9;
-  -webkit-border-radius: 60px;
-  border-radius: 60px;
-  border:;
-  color: #eeeeee;
-  cursor: pointer;
-  display: inline-block;
-  font-family: sans-serif;
-  font-size: 20px;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;}
+
     </style>
 
     <link rel="stylesheet" type="text/css" href="stylez.css">
