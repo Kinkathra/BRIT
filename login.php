@@ -90,7 +90,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
  
 <!DOCTYPE html>
 <html lang="en">
-<html lang="en" data-arp-injected="true"><head>
+<html lang="en" data-arp-injected="true">
+
+<head>
     <link rel="stylesheet" type="text/css" href="stylez.css">
 
     <style>
@@ -121,7 +123,7 @@ flyBritFly {
 /*end of fly brit*/
     #white{color:white;}
  
-    .centered{margin-left:30%;  mix-blend-mode: darken};
+    .centered{margin-left:30%;  mix-blend-mode: darken;}
     .pinkOrWhatever{color:#fc2683;}
 
 
@@ -129,7 +131,7 @@ flyBritFly {
   background-color: #1c87c9;
   -webkit-border-radius: 60px;
   border-radius: 60px;
-  border: solid red;
+  border:;
   color: #eeeeee;
   cursor: pointer;
   display: inline-block;
@@ -137,8 +139,9 @@ flyBritFly {
   font-size: 20px;
   padding: 5px 15px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none;}
     </style>
+
     <link rel="stylesheet" type="text/css" href="stylez.css">
 
     <meta charset="UTF-8">
