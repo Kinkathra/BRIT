@@ -383,12 +383,12 @@ the helpdesk where managing open tickets can become overwhelming.
 <h1>LICENSESING INFORMATION</h1>
 <div class="form-floating" style="text-align:center color:green">
   <select class="form-select" id="floatingSelect" aria-label="Floating label select example" style="background-color:#f2889e">
-    <option selected>Open this select License</option>
+    <option selected>Open this to select License</option>
     <option value="1" onclick="#license.php"><a href= "license.php">ServiceNow</a></option>
     <option value="2">Microsoft</option>
     <option value="3">iOS</option>
   </select>
-  <label for="floatingSelect">Works with selects</label>
+  <label for="floatingSelect"><b>License Information</b></label>
 </div>
 
 <div style="" class="w3-container" id="">
