@@ -284,13 +284,13 @@ $('input:checkbox').not(this).prop('checked', this.checked);
  <span id="section2">
 <h1 id ="heads">About Me</h1>
 
-Professional candidate of growth for business and IT with the posession of <br>indepth knowledge of Hardware and Software technologies. I have 
+Professional candidate of growth for business and IT with the passion and <br>working knowledge of Hardware and Software technologies. I have 
 discovered a degree<br> of professional skills to aid in the success of your company where <br> no task is too small and where every factor
-must be counted <br>to ensure the overall productivity of a company. I know just how <br>important budgeting is for the success of a business
-and that stakeholders love <br>to see that money is being spent efficiently. I also know how stressful <br> some tedious tasks can become
-which also affects employee productivity. Taking into consideration <br> those two important factors is why I created this simple application <br>to not only
-keep records of devices that aren't being utilized but to also <br> allow helpdesk employees and technicians house this information away from
-the helpdesk<br> where managing open tickets can become overwhelming.
+must be counted <br>in order ensure the overall productivity and flow of a company. I know just how <br>important budgeting is for the success of a business
+and that stakeholders love <br>to see that money is being spent efficiently. I also know how stressful <br> some tedious tasks can become for workers
+which also affects employee productivity. <br>Taking into consideration those two important factors is why I created this <br> simple application to not only
+keep records of devices that aren't being <br> utilized but to also allow helpdesk employees and technicians house this information away <br>from
+the helpdesk where managing open tickets can become overwhelming.
 
 
 </div>
