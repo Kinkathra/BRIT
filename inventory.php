@@ -201,7 +201,7 @@ IT assetts yet to be returned to your company.<p style="text-align:center; color
 <div id = "toBeReturned">
     <br>
 
-<h3 style="color:#fffffa; margin:0; font-family:"Times New Roman">Returning</h3>
+<h3 style="color:#fffffa; margin:0; font-family:"Times New Roman">Deployed Phones being unutilized</h3>
 <br>
 <form method="post" action="inventory.php">
 <table class="table table-bordered">
