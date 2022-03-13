@@ -192,7 +192,7 @@ IT assetts yet to be returned to your company.<p style="text-align:center; color
 
 <th id = "addNew">
 <!--   New Equipment:
- -->       <input type="text" hidden name="id" ><input type="text" name="first_name" id = "firstI"  maxlength="1" input size="1" placeholder="1st-in">&nbsp;<input type="text" placeholder="Last Name" name="last_name" id = "lastN" placeholder="Last name"><input disabled value="@hospicesource.net" placeholder="@hospicesource.net" type="text" placeholder="Phone Serial" name="email"><!-- <span id = "at">@hospicesource.net</span> -->&nbsp;<input type="text" placeholder="IMEI" name="address" onclick="myfunk()">&nbsp;<input type="text" name="position" placeholder="Position">&nbsp;<input type="text" placeholder="Location" name="location">&nbsp;<input type="text" placeholder="soon to be FedEx Tracking #" name="sled">&nbsp;<input type="text" placeholder="Phone Number"  name="phone">iPhone<a href="#"><img id="apple"  src="png-clipart-apple-logo-apple-logo-heart-logo.png"></a>&nbsp;<input disabled type="text" placeholder="xx" size="2" name=""></input>Android<a href="#"><img id="android" src="Android_robot.png"></a>&nbsp;<input size="2" disabled type="text" placeholder="xx" name="">&nbsp;SP<input disabled type="text" size="1" placeholder="10"><input onmousedown="submit()" id = "submit" type="submit" name="Submit"><!--  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><img src="baseline_cached_black_24dp.png"></a> -->
+ -->       <input type="text" hidden name="id" ><input type="text" name="first_name" id = "firstI"  maxlength="1" input size="1" placeholder="1st-in">&nbsp;<input type="text" placeholder="Last Name" name="last_name" id = "lastN" placeholder="Last name"><input disabled value="@urdomain.net" placeholder="@urdomain.net" type="text" placeholder="Phone Serial" name="email"><!-- <span id = "at">@urdomain.net</span> -->&nbsp;<input type="text" placeholder="IMEI" name="address" onclick="myfunk()">&nbsp;<input type="text" name="position" placeholder="Position">&nbsp;<input type="text" placeholder="Location" name="location">&nbsp;<input type="text" placeholder="Tracking #" name="sled">&nbsp;<input type="text" placeholder="Phone Number"  name="phone">iPhone<a href="#"><img id="apple"  src="png-clipart-apple-logo-apple-logo-heart-logo.png"></a>&nbsp;<input disabled type="text" placeholder="xx" size="2" name=""></input>Android<a href="#"><img id="android" src="Android_robot.png"></a>&nbsp;<input size="2" disabled type="text" placeholder="xx" name="">&nbsp;SP<input disabled type="text" size="1" placeholder="10"><input onmousedown="submit()" id = "submit" type="submit" name="Submit"><!--  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><img src="baseline_cached_black_24dp.png"></a> -->
 <!--</th>-->
 <!--</div></div></tr></table></form>-->
 
@@ -220,7 +220,7 @@ IT assetts yet to be returned to your company.<p style="text-align:center; color
     <th>position</th>
     <th>sled-sn#</th>
     <th>Delete</th>
-    <th>Edit</th>
+    <th>Track</th>
 
 </tr>
 </thead>
@@ -249,13 +249,13 @@ while($row = mysqli_fetch_array($result)) {
 </svg>
                 Delete
               </button></a></td>
-<!-- Edit Button -->
-    <td><a href="edit.php">
-        <button type="button" class="btn btn-outline-danger">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
-  <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"></path>
+              <td>
+<!-- Tracking utton --!>
+              
+              <a style="" href="https://www.fedex.com/fedextrack/?action=track&tracknumbers=<?php echo $row["sled"] ; ?>" target="_blank"><button type="button" class="btn btn-outline-danger">
+               
 </svg>
-                Edit
+                Track
               </button></td>
 
 </tr>
