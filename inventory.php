@@ -296,52 +296,6 @@ the helpdesk where managing open tickets can become overwhelming.
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-window.onload = function() {
-<class id = "borda"}
-var chart = new CanvasJS.Chart("chartContainer", {
-    theme: "dark1", // "light1", "light2", "dark1", "dark2"
-    exportEnabled: true,
-    animationEnabled: true,
-    title: {
-        text: "Hardware By Type"
-    },
-    data: [{
-        type: "pie",
-        startAngle: 25,
-        toolTipContent: "<b>{label}</b>: {y}%",
-        showInLegend: "true",
-        legendText: "{label}",
-        indexLabelFontSize: 16,
-        indexLabel: "{label} - {y}$",
-        dataPoints: [
-            { y: 51.08, label: "Mobile" },
-            { y: 27.34, label: "Printer" },
-            { y: 10.62, label: "Server" },
-            { y: 5.02, label: "Laptop" },
-            { y: 4.07, label: "Sled" },
-            { y: 1.22, label: "Tablet" },
-            { y: 0.44, label: "Desktop" }
-        ]
-    }]
-});
-chart.render();
-
-}
 </script>
 </head>
 <body>
