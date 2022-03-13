@@ -160,7 +160,7 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
             <li><a class="dropdown-item" href="#">Return-Labels</a></li>
           </ul>
 
-  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><a href=#section2><h3>About Me</h3><img src="toggle-flier.svg" style="width:1em; height:1em; margin:auto"><img src="toggle-flier.svg"></a></a></span>
+  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><a href=#section2><h3>About Me</h3><img src="toggle-flier.svg" style="width:1em; height:1em; margin:auto"></a></a></span>
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
     
