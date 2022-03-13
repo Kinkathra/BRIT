@@ -383,17 +383,17 @@ the helpdesk where managing open tickets can become overwhelming.
 <h1>LICENSESING INFORMATION</h1>
 <div class="form-floating" style="text-align:center">
   <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-    <option selected>Open this select menu</option>
-    <option value="1" onclick="#license.php"><a href= "license.php">License</a></option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
+    <option selected>Open this select License</option>
+    <option value="1" onclick="#license.php"><a href= "license.php">ServiceNow</a></option>
+    <option value="2">Microsoft</option>
+    <option value="3">iOS</option>
   </select>
   <label for="floatingSelect">Works with selects</label>
 </div>
 
 <div style="" class="w3-container" id="">
 <span id="section9">
-<div id="borda"><h1 class="display-1 main" id = "" href="#section1"><b>Inventory</b></h1>
+<div id="borda"><h1 class="display-1 main" id = "" href="#section1"><b style="color:black">Inventory</b></h1>
 <hr>
 <!--
 <table class="table">
