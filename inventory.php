@@ -160,9 +160,7 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
             <li><a class="dropdown-item" href="#">Return-Labels</a></li>
           </ul>
 
-  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><h3>About Me</h3><a href="#section9"><span class="material-icons-outlined">
-search
-</span><img src="outline_add_white_24dp.png"></a>weekly-update</span>
+  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><h3>About Me</h3><a href="#section9"></a>weekly-update</span>
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
     
@@ -173,7 +171,7 @@ search
           </li>
       </ul>
     </div>            
-    <a href="aboutme.php"><span style="padding-left:0" class="white">About&nbspme&nbsp</span></a><&emsp<a href="servicesOffered.php"><span style="padding-left:0" class="white">Services&nbspoffered</a>&emsp<a href="logout.php"><span class="white">signout</a></span>
+    <a href="aboutme.php"><span style="padding-left:0" class="white">About&nbspme&nbsp</span></a><&emsp<a href="servicesOffered.php"><a href="logout.php"><span class="white">signout</a></span>
 
               <!--<span class="signOut"><a href="signout.php">signout</a></li>-->
 
