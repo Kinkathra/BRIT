@@ -160,11 +160,10 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
             <li><a class="dropdown-item" href="#">Return-Labels</a></li>
           </ul>
 
-  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><h3>About Me</h3><a href="#section9"></a>weekly-update</span>
+  </div> <div class="collapse navbar-collapse" id="navbarNavDarkDropdown section1"><span id="goToText"><a href=#section2><h3>About Me</h3></a></a></span>
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
     
-<a href="#section2"><img class="main" id="section1" src="outline_arrow_circle_down_white_48dp.png"></a>
 </ul>
     </div>
   </div>
