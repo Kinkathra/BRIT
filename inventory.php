@@ -192,7 +192,8 @@ IT assetts yet to be returned to your company.<p style="text-align:center; color
 
 <th id = "addNew">
 <!--   New Equipment:
- -->       <input type="text" hidden name="id" ><input type="text" name="first_name" id = "firstI"  maxlength="1" input size="1" placeholder="1st-in">&nbsp;<input type="text" placeholder="Last Name" name="last_name" id = "lastN" placeholder="Last name"><input disabled value="@urdomain.net" placeholder="@urdomain.net" type="text" placeholder="Phone Serial" name="email"><!-- <span id = "at">@urdomain.net</span> -->&nbsp;<input type="text" placeholder="IMEI" name="address" onclick="myfunk()">&nbsp;<input type="text" name="position" placeholder="Position">&nbsp;<input type="text" placeholder="Location" name="location">&nbsp;<input type="text" placeholder="Tracking #" name="sled">&nbsp;<input type="text" placeholder="Phone Number"  name="phone">iPhone<a href="#"><img id="apple"  src="png-clipart-apple-logo-apple-logo-heart-logo.png"></a>&nbsp;<input disabled type="text" placeholder="xx" size="2" name=""></input>Android<a href="#"><img id="android" src="Android_robot.png"></a>&nbsp;<input size="2" disabled type="text" placeholder="xx" name="">&nbsp;SP<input disabled type="text" size="1" placeholder="10"><input onmousedown="submit()" id = "submit" type="submit" name="Submit"><!--  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><img src="baseline_cached_black_24dp.png"></a> -->
+ -->       <input type="text" hidden name="id" ><input type="text" name="first_name" id = "firstI"  maxlength="1" input size="1" placeholder="1st-in">&nbsp;<input type="text" placeholder="Last Name" name="last_name" id = "lastN" placeholder="Last name"><input disabled value="@urdomain.net" placeholder="@urdomain.net" type="text" placeholder="Phone Serial" name="email"><!-- <span id = "at">@urdomain.net</span> -->&nbsp;<input type="text" placeholder="IMEI" name="address" onclick="myfunk()">&nbsp;<input type="text" name="position" placeholder="Position">&nbsp;<input type="text" placeholder="Location" name="location">&nbsp;<input type="text" placeholder="Tracking #" name="sled">&nbsp;
+ <!--<input type="text" placeholder="Phone Number"  name="phone">iPhone<a href="#"><img id="apple"  src="png-clipart-apple-logo-apple-logo-heart-logo.png"></a>&nbsp;<input disabled type="text" placeholder="xx" size="2" name=""></input>Android<a href="#"><img id="android" src="Android_robot.png"></a>&nbsp;<input size="2" disabled type="text" placeholder="xx" name="">&nbsp;SP<input disabled type="text" size="1" placeholder="10"><input onmousedown="submit()" id = "submit" type="submit" name="Submit"><!--  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><img src="baseline_cached_black_24dp.png"></a> -->
 <!--</th>-->
 <!--</div></div></tr></table></form>-->
 
@@ -218,7 +219,7 @@ IT assetts yet to be returned to your company.<p style="text-align:center; color
     <th>location</th>
     <th>phone#</th>
     <th>position</th>
-    <th>sled-sn#</th>
+    <th>Tracking #</th>
     <th>Delete</th>
     <th>Track</th>
 
