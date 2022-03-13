@@ -310,27 +310,6 @@ the helpdesk where managing open tickets can become overwhelming.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h1 id="heads">Services Offered</h1>
-
-
-
-<!DOCTYPE HTML>
-<html>
-<head>
 <script>
 window.onload = function() {
 <class id = "borda"}
