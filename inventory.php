@@ -142,7 +142,7 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
 <title>Backroom IT Inventory</title>
 </head>
 <body style="   background-color:rgb(59, 131, 247);">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id=section2>
   <div class="container-fluid">
     <a class="navbar-brand" href="welcome.php"><img src="backroomiths.png"><a href="req.php"><flyBritFly><span class="blinking-cursor">|</span><img class="icon" src="brit.ico" ><span class="blinking-cursor">_</span></flyBritFly></y></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -459,7 +459,6 @@ chart.render();
 </div>
 
 <div style="" class="w3-container" id="">
-<img class="centr main" style="text-align:center" src="outline_arrow_circle_up_white_48dp.png">
 <span id="section9">
 <div id="borda"><h1 class="display-1 main" id = "" href="#section1"><b>Inventory</b></h1>
 <hr>
@@ -601,6 +600,7 @@ chart.render();
 </table>
 
 <!-- JavaScript Bundle with Popper -->
+<a href="#section0"><img class="centr main" src="outline_arrow_circle_up_white_48dp.png">
 </body>
 <script type="javasc.js"></script>
 <!-- CSS only -->
