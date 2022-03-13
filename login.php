@@ -203,7 +203,7 @@ flyBritFly {
             </div>    
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" placeholder="password" name="password" value="password" class="form-control ">
+                <input type="password" placeholder="password" name="password" value="$i2toji23toj23i4tj4t24tigjoi4gj" class="form-control ">
                 <span class="invalid-feedback"></span>
             </div>
             <div class="form-group">
