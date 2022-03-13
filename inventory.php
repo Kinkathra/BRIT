@@ -269,7 +269,7 @@ $i++;
 ?>
 
 </table>
-<p align="center"><button type="submit" class="btn btn-success" name="save">DELETE-Selected</button></p>
+<p align="center">
 </form>
 </div>
 <script>
