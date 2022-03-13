@@ -142,7 +142,7 @@ background: linear-gradient(to right, #1CB5E0, #000046);}
 <title>Backroom IT Inventory</title>
 </head>
 <body style="   background-color:rgb(59, 131, 247);">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id=section2>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id=section0>
   <div class="container-fluid">
     <a class="navbar-brand" href="welcome.php"><img src="backroomiths.png"><a href="req.php"><flyBritFly><span class="blinking-cursor">|</span><img class="icon" src="brit.ico" ><span class="blinking-cursor">_</span></flyBritFly></y></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
